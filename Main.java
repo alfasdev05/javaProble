@@ -1,21 +1,10 @@
-import java.util.Scanner;
-
 public class Main{
-    public static void main(String[] args)
-    {
-        Scanner scanner = new Scanner(System.in);
-        double length = scanner.nextDouble();
+    public static void main (String []args){
+        int a = 3;
+        int b = 9;
 
-
-        System.out.println("enter the width of the main: ");
-        double width=scanner.nextDouble();
-
-        double area = length *width;
-
-        System.out.println("The area of the rectangle is:" +area);
-        scanner.close();
+        int area=(a*b);
+        System.out.println("the area of rectangle is "+area);
 
     }
-
-    
 }
